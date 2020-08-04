@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% csrf_token %}
+
+{% load static %}
+
+{% block extra_head %}
+<link rel="stylesheet" type="text/css" href="{% static 'contact.css' %}"/>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <span class="text1">Contact Us</span>
+</div>
+
+<div class="contact-title">
+    <h1>Any Questions?</h1>
+    <h1>We are always ready to answer your questions!</h1>
+</div>
+
+<div class="contact-form">
+  <form id="contact-form" method="post" action="static/contact.php">
+
+    <input name="name" type="text" class="form-control" placeholder="Your name" required><br>
+
+    <input name="email" type="email" class="form-control" placeholder="Your email" required><br>
+
+    <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+
+    <input type="submit" class="form-control submit" value="SEND MESSAGE">
+
+  </form>
+
+</div>
+
+{% endblock %}
