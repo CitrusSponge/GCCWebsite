@@ -207,12 +207,12 @@ td {border-right:1px solid #fff;}
   background: #C81010 none repeat scroll 0 0;
   color: #fff;
 }
-.background-dark-hightlight .top-nav .active-item > a, .background-dark-hightlight .top-nav li a:hover, .background-dark-hightlight .aside-nav li a:hover, 
+.background-dark-hightlight .top-nav .active-item > a, .background-dark-hightlight .top-nav li a:hover, .background-dark-hightlight .aside-nav li a:hover,
 .background-dark-hightlight .aside-nav > ul > li.active-item > a:link, .background-dark-hightlight .aside-nav > ul > li.active-item > a:visited,
-.primary-color-dark .background-primary-hightlight .top-nav .active-item > a, .primary-color-dark .background-primary-hightlight .top-nav li a:hover, .primary-color-dark .background-primary-hightlight .aside-nav li a:hover, 
+.primary-color-dark .background-primary-hightlight .top-nav .active-item > a, .primary-color-dark .background-primary-hightlight .top-nav li a:hover, .primary-color-dark .background-primary-hightlight .aside-nav li a:hover,
 .primary-color-dark .background-primary-hightlight .aside-nav > ul > li.active-item > a:link, .primary-color-dark .background-primary-hightlight .aside-nav > ul > li.active-item > a:visited {
-  background: #002633 none repeat scroll 0 0;
-  color: #fff;
+    background: #1B1B46 none repeat scroll 0 0;
+    color: #fff;
 }
 .background-none {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0!important;
@@ -317,8 +317,8 @@ video {
   padding: 0.7em 1.25em;
 }
 nav {
-  border-bottom: 4px solid rgba(0, 0, 0, 0.05);
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  /*border-bottom: 4px solid rgba(0, 0, 0, 0.05);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);*/
   padding: 1.7rem 0;
   position: relative;
   z-index: 2;
@@ -1925,8 +1925,8 @@ header.position-absolute {
   border-left: 0 solid;
 }
 nav {
-  border-bottom: 0px solid;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+  /*border-bottom: 0px solid;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.09);*/
   padding: 0 2rem;
   position: relative;
   z-index: 2;
