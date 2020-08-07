@@ -2096,4 +2096,10 @@ video {
   .carousel-3-blocks {
     padding: 0;
   }
-}    
+}
+
+
+/* Custom site styling */
+ .divisions {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+ }
