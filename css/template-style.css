@@ -2102,3 +2102,8 @@ video {
  .divisions {
     border: 1px solid rgba(0, 0, 0, 0.1);
  }
+
+footer img {
+    height: 50px;
+    width: 50px;
+}
