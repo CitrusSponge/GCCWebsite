@@ -1240,7 +1240,7 @@ p.form-success {
     .nav-text {
       color: #fff;
       display: block;
-      font-size: 1.2rem;
+      font-size: 1.0rem;
       line-height: 3rem;
       margin-right: 0.625rem;
       max-width: 100%;
@@ -1250,14 +1250,14 @@ p.form-success {
     .nav-text::after {
       color: #1B1B46;
       display: inline-block;
-      font-size: 3rem;
+      font-size: 1rem;
       margin-left: 0;
-      margin-top: 30px;
+      margin-top: 5px;
     }
     .top-nav li a, .background-white .top-nav li a {
       background: #1B1B46 none repeat scroll 0 0;
       color: #fff;
-      font-size: 1.1em;
+      font-size: 1.0em;
       padding: 1em;
       text-align: center;
     }
@@ -2083,12 +2083,12 @@ video {
   }
   .top-nav li a, .background-white .top-nav li a {
     background: #fff none repeat scroll 0 0;
-    font-size: 1.5em;
+    font-size: 1.0em;
     padding: 1.2em 1em;
   }
   .top-nav li ul li a {
     background: #f5f5f5!important;
-    font-size: 1.5em;
+    font-size: 1.0em;
     padding: 1.2em 1em;
   }
   nav.fixed .top-nav li a, .fixed nav .top-nav li a {
