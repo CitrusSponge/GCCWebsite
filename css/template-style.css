@@ -1227,6 +1227,9 @@ p.form-success {
 
 /* -768px version */
 @media screen and (max-width:768px) {
+    img.logo-banner {
+        margin: 0 auto;
+    }
     .top-nav .right {
       float: none;
     }
@@ -1570,6 +1573,7 @@ p.form-success {
 
 /* -480px version */
 @media screen and (max-width:480px) {
+    
     .top-bar .right {
       float: none;
     }
@@ -2040,7 +2044,7 @@ border: 0;
 }
 
 .info-panel {
-    height: 430px;
+ /*   height: 430px;*/
 }
 
 video {
@@ -2106,4 +2110,8 @@ video {
 footer img {
     height: 50px;
     width: 50px;
+}
+
+.logo-banner {
+    margin: 5px;
 }
