@@ -137,8 +137,8 @@ a.text-tag:link {
   padding: 6px 9px;
 }
 a.text-tag:link:hover {
-  background: #1B1B46 none repeat scroll 0 0;
-  border: 1px solid #1B1B46;
+  background: #0f162d none repeat scroll 0 0;
+  border: 1px solid #0f162d;
   color: #fff;
   transition: all 0.20s linear 0s;
   -o-transition: all 0.20s linear 0s;
@@ -197,7 +197,7 @@ td {border-right:1px solid #fff;}
 .primary-color-white .background-primary-hightlight .top-nav .active-item > a, .primary-color-white .background-primary-hightlight .top-nav li a:hover, .primary-color-white .background-primary-hightlight .aside-nav li a:hover,
 .primary-color-white .background-primary-hightlight .aside-nav > ul > li.active-item > a:link, .primary-color-white .background-primary-hightlight .aside-nav > ul > li.active-item > a:visited {
   background: #fff none repeat scroll 0 0;
-  color: #1B1B46;
+  color: #0f162d;
 }
 
 .background-primary-hightlight .top-nav .active-item > a, .background-primary-hightlight .top-nav li a:hover, .background-primary-hightlight .aside-nav li a:hover,
@@ -211,7 +211,7 @@ td {border-right:1px solid #fff;}
 .background-dark-hightlight .aside-nav > ul > li.active-item > a:link, .background-dark-hightlight .aside-nav > ul > li.active-item > a:visited,
 .primary-color-dark .background-primary-hightlight .top-nav .active-item > a, .primary-color-dark .background-primary-hightlight .top-nav li a:hover, .primary-color-dark .background-primary-hightlight .aside-nav li a:hover,
 .primary-color-dark .background-primary-hightlight .aside-nav > ul > li.active-item > a:link, .primary-color-dark .background-primary-hightlight .aside-nav > ul > li.active-item > a:visited {
-    background: #1B1B46 none repeat scroll 0 0;
+    background: #0f162d none repeat scroll 0 0;
     color: #fff;
 }
 .background-none {
@@ -262,11 +262,11 @@ hr.break-small {
   border: 0;
   display: block;
   height: 2px;
-  margin: 20px 0 35px;
+  margin: 10px 0 20px;
   width: 60px;
 }
 hr.break-small.break-center {
-  margin: 20px auto 35px;
+  margin: 20px auto 20px;
 }
 hr.break-small.break-double {
   height: 0;
@@ -312,7 +312,7 @@ video {
 
 /* Top Nav */
 .top-nav li a, .background-white .top-nav li a {
-  color: #1B1B46;
+  color: #0f162d;
   font-size: 0.85rem;
   padding: 0.7em 1.25em;
 }
@@ -324,7 +324,7 @@ nav {
   z-index: 2;
 }
 .top-nav ul ul {
-  background: #1B1B46 none repeat scroll 0 0;
+  background: #0f162d none repeat scroll 0 0;
 }
 .top-nav li ul li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
@@ -333,7 +333,7 @@ nav {
   border-bottom: 0;
 }
 .top-nav li ul li a, .background-white .top-nav li ul li a, .top-nav .active-item li a {
-  background: #1B1B46 none repeat scroll 0 0;
+  background: #0f162d none repeat scroll 0 0;
   color: rgba(255,255,255, 0.75);
 }
 ul.chevron .submenu > a::after, ul.chevron .sub-submenu > a::after, ul.chevron .aside-submenu > a::after, ul.chevron .aside-sub-submenu > a::after {
@@ -424,7 +424,7 @@ aside.aside-left {
 }
 .aside-nav.background-dark-hightlight > ul > li > a:hover, .aside-nav.background-dark-hightlight > ul > li.active-item > a:link, .aside-nav.background-dark-hightlight > ul > li.active-item > a:visited,
 .primary-color-dark .aside-nav.background-primary-hightlight > ul > li > a:hover, .primary-color-dark .aside-nav.background-primary-hightlight > ul > li.active-item > a:link, .primary-color-dark .aside-nav.background-primary-hightlight > ul > li.active-item > a:visited {
-  border-color: #1B1B46;
+  border-color: #0f162d;
 }
 
 /* Font colors */
@@ -439,7 +439,7 @@ aside.aside-left {
 .background-white .h1, .background-white .h2, .background-white .h3, .background-white .h4, .background-white .h5, .background-white .h6,
 .primary-color-white .background-primary h1, .primary-color-white .background-primary h2, .primary-color-white .background-primary h3, .primary-color-white .background-primary h4, .primary-color-white .background-primary h5, .primary-color-white .background-primary h6,
 .primary-color-white .background-primary .h1, .primary-color-white .background-primary .h2, .primary-color-white .background-primary .h3, .primary-color-white .background-primary .h4, .primary-color-white .background-primary .h5, .primary-color-white .background-primary .h6 {
-  color: #1B1B46;
+  color: #0f162d;
 }
 .image-hover-overlay-content *,
 .background-primary, .background-primary p, a.background-primary, a.background-primary:visited, a.background-primary:link, .background-primary a, .background-primary a:link, .background-primary a:visited, .background-primary a:hover, .background-primary a:active,
@@ -463,7 +463,7 @@ aside.aside-left {
   color: #C81010 !important;
 }
 .text-dark, .text-dark *, .primary-color-dark .text-primary, .primary-color-dark .text-primary * {
-  color: #1B1B46 !important;
+  color: #0f162d !important;
 }
 .text-white-hover, .text-primary-hover, .text-dark-hover {
   transition: color 0.20s linear 0s;
@@ -479,7 +479,7 @@ aside.aside-left {
   color: #C81010 !important;
 }
 .text-dark-hover:hover, .primary-color-dark .text-primary-hover:hover {
-  color: #1B1B46 !important;
+  color: #0f162d !important;
 }
 
 /* Background Colors */
@@ -490,7 +490,7 @@ aside.aside-left {
   background-color: #C81010 !important;
 }
 .background-dark, .primary-color-dark .background-primary {
-  background-color: #1B1B46 !important;
+    background-color: #0f162d !important;
 }
 /* Background Opacity */
 .background-white.background-transparent, .primary-color-white .background-primary.background-transparent {
@@ -608,7 +608,7 @@ aside.aside-left {
 .button.button-white-stroke:hover, a.button.button-white-stroke:hover,
 .primary-color-white .button.button-primary-stroke:hover, .primary-color-white a.button.button-primary-stroke:hover {
   background: #fff none repeat scroll 0 0;
-  color: #1B1B46;
+  color: #0f162d;
 }
 .button.button-primary-stroke, a.button.button-primary-stroke, a.button.button-primary-stroke:link, a.button.button-primary-stroke:visited,
 .primary-color-primary .button.button-primary-stroke, .primary-color-primary a.button.button-primary-stroke, .primary-color-primary a.button.button-primary-stroke:link, .primary-color-primary a.button.button-primary-stroke:visited {
@@ -626,13 +626,13 @@ aside.aside-left {
 .button.button-dark-stroke, a.button.button-dark-stroke, a.button.button-dark-stroke:link, a.button.button-dark-stroke:visited,
 .primary-color-dark .button.button-primary-stroke, .primary-color-dark a.button.button-primary-stroke, .primary-color-dark a.button.button-primary-stroke:link, .primary-color-dark a.button.button-primary-stroke:visited {
   background: none;
-  border: 1px solid #1B1B46;
+  border: 1px solid #0f162d;
   box-shadow: none;
-  color: #1B1B46;
+  color: #0f162d;
 }
 .button.button-dark-stroke:hover, a.button.button-dark-stroke:hover,
 .primary-color-dark .button.button-primary-stroke:hover, .primary-color-dark a.button.button-primary-stroke:hover {
-  background: #1B1B46 none repeat scroll 0 0;
+  background: #0f162d none repeat scroll 0 0;
   color: #fff;
 }
 
@@ -1161,18 +1161,18 @@ display:none;
 }
 a.tab-label, a.tab-label:link, a.tab-label:visited,
 .background-white a.tab-label, .background-white a.tab-label:link, .background-white a.tab-label:visited, .background-white a.tab-label:hover {
-  background: #1B1B46 none repeat scroll 0 0;
+  background: #0f162d none repeat scroll 0 0;
   color: rgba(255,255,255, 0.75);
 }
 a.tab-label, a.tab-label:link, a.tab-label:visited, a.tab-label:hover,
 .background-white a.tab-label, .background-white a.tab-label:link, .background-white a.tab-label:visited, .background-white a.tab-label:hover {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #1B1B46;
+  color: #0f162d;
 }
 .background-white-hightlight a.tab-label.active-btn, .background-white-hightlight a.tab-label:hover,
 .primary-color-white .background-primary-hightlight a.tab-label.active-btn, .primary-color-white .background-primary-hightlight a.tab-label:hover {
   background: #fff none repeat scroll 0 0;
-  color: #1B1B46;
+  color: #0f162d;
 }
 .background-primary-hightlight a.tab-label.active-btn, .background-primary-hightlight a.tab-label:hover,
 .primary-color-primary .background-primary-hightlight a.tab-label.active-btn, .primary-color-primary .background-primary-hightlight a.tab-label:hover {
@@ -1181,7 +1181,7 @@ a.tab-label, a.tab-label:link, a.tab-label:visited, a.tab-label:hover,
 }
 .background-dark-hightlight a.tab-label.active-btn, .background-dark-hightlight a.tab-label:hover,
 .primary-color-dark .background-primary-hightlight a.tab-label.active-btn, .primary-color-dark .background-primary-hightlight a.tab-label:hover {
-  background: #1B1B46 none repeat scroll 0 0;
+  background: #0f162d none repeat scroll 0 0;
   color: #fff;
 }
 
@@ -1227,6 +1227,9 @@ p.form-success {
 
 /* -768px version */
 @media screen and (max-width:768px) {
+    img.logo-banner {
+        margin: 0 auto;
+    }
     .top-nav .right {
       float: none;
     }
@@ -1237,7 +1240,7 @@ p.form-success {
     .nav-text {
       color: #fff;
       display: block;
-      font-size: 1.2rem;
+      font-size: 1.0rem;
       line-height: 3rem;
       margin-right: 0.625rem;
       max-width: 100%;
@@ -1245,16 +1248,16 @@ p.form-success {
       vertical-align: middle;
     }
     .nav-text::after {
-      color: #1B1B46;
+      color: #0f162d;
       display: inline-block;
-      font-size: 3rem;
+      font-size: 1rem;
       margin-left: 0;
-      margin-top: 30px;
+      margin-top: 5px;
     }
     .top-nav li a, .background-white .top-nav li a {
-      background: #1B1B46 none repeat scroll 0 0;
+      background: #0f162d none repeat scroll 0 0;
       color: #fff;
-      font-size: 1.1em;
+      font-size: 1.0em;
       padding: 1em;
       text-align: center;
     }
@@ -1570,6 +1573,7 @@ p.form-success {
 
 /* -480px version */
 @media screen and (max-width:480px) {
+    
     .top-bar .right {
       float: none;
     }
@@ -1935,16 +1939,14 @@ nav {
   display:none;
 }
 nav.fixed, .fixed nav {
-  background: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
-  padding: 0 2em;
+    background: #0f162d;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+    padding: 0 2em;
 }
 nav.fixed .top-nav li a, .fixed nav .top-nav li a {
-  color: #444;
+    color: #FFFFFF;
 }
-nav.fixed .logo-white, .fixed nav .logo-white {
-  display:none;
-}
+
 nav.fixed .logo-dark, .fixed nav .logo-dark {
   display:block;
 }
@@ -1991,7 +1993,7 @@ nav.fixed .logo-dark, .fixed nav .logo-dark {
 }
 nav.background-transparent-hightlight.fixed .top-nav .active-item > a, nav.background-transparent-hightlight.fixed .top-nav li a:hover, nav.background-transparent-hightlight.fixed .aside-nav li a:hover, nav.background-transparent-hightlight.fixed .aside-nav > ul > li.active-item > a:link, nav.background-transparent-hightlight.fixed .aside-nav > ul > li.active-item > a:visited {
   background: none;
-  color: #000;
+  color: #FFF;
   opacity: 1;
 }
 .background-transparent-hightlight .top-nav ul ul .active-item a, .background-transparent-hightlight .top-nav ul ul li a:hover, .background-transparent-hightlight .aside-nav ul ul li a:hover, .background-transparent-hightlight .aside-nav > ul > li.active-item > a:link, .background-transparent-hightlight .aside-nav > ul > li.active-item > a:visited {
@@ -2040,7 +2042,7 @@ border: 0;
 }
 
 .info-panel {
-    height: 430px;
+ /*   height: 430px;*/
 }
 
 video {
@@ -2063,14 +2065,14 @@ video {
     display:block;
   }
   .nav-text::after {
-    color: #1B1B46;
+    color: #0f162d;
   }
   .fixed {
     position: relative;
     z-index: 10;
   }
   .fixed .nav-text::after {
-    color: #1B1B46;
+    color: #0f162d;
   }
   .top-nav li a,.top-nav li ul li a {
     border-top: 1px solid #f5f5f5;
@@ -2079,12 +2081,12 @@ video {
   }
   .top-nav li a, .background-white .top-nav li a {
     background: #fff none repeat scroll 0 0;
-    font-size: 1.5em;
+    font-size: 1.0em;
     padding: 1.2em 1em;
   }
   .top-nav li ul li a {
     background: #f5f5f5!important;
-    font-size: 1.5em;
+    font-size: 1.0em;
     padding: 1.2em 1em;
   }
   nav.fixed .top-nav li a, .fixed nav .top-nav li a {
@@ -2106,4 +2108,16 @@ video {
 footer img {
     height: 50px;
     width: 50px;
+}
+
+.logo-banner {
+    margin: 5px;
+}
+.img-48 {
+    width: 48px;
+    height: 48px;
+}
+
+.img-128 {
+    height: 128px;
 }
