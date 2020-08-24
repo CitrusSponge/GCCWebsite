@@ -462,6 +462,10 @@ aside.aside-left {
 .text-primary, .text-primary *, .primary-color-primary .text-primary, .primary-color-primary .text-primary * {
     color: #83ce3b !important;
 }
+.text-warning {
+    color: #C81010 !important;
+}
+
 .text-dark, .text-dark *, .primary-color-dark .text-primary, .primary-color-dark .text-primary * {
   color: #0f162d !important;
 }
@@ -647,7 +651,7 @@ aside.aside-left {
   padding-top: 6rem;
 }
 .section-top-small-padding  {
-  padding-top: 2.5rem;
+  padding-top: 1.0rem;
 }
 .float-left {
   float: left;
