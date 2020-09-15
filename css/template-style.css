@@ -2125,3 +2125,11 @@ footer img {
 .img-128 {
     height: 128px;
 }
+
+.img-128w {
+    width: 128px;
+}
+
+img.circle {
+        border-radius: 60px;
+}
