@@ -2126,6 +2126,10 @@ footer img {
     height: 128px;
 }
 
+.img-256{
+    height: 256px;
+}
+
 .img-128w {
     width: 128px;
 }
@@ -2139,4 +2143,10 @@ img.circle {
     float: none;
     margin: 0 auto;
     display: block;
+}
+
+img.img-center {
+    vertical-align: middle;
+    display: inline-block;
+
 }
