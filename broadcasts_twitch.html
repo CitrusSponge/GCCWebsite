@@ -195,9 +195,13 @@
                             <div id="twitch-clashwithajgaming"></div>
                         </div>
 
+                        <div class="s-12 m-12 l-4 margin-bottom-20">
+                            <p class="text-center h4"><a href="https://twitch.tv/fernandongames" target="_blank" title="Click to follow fernandongames on twitch">Fernandongames</a></p>
+
+                            <div id="twitch-fernandongames"></div>
+                        </div>
                     </div>
 
-                    https://www.twitch.tv/clashwithajgaming
             </section>
         </article>
     </main>
@@ -414,7 +418,13 @@
         // only needed if your site is also embedded on embed.example.com and othersite.example.com
         parent: ["globalclashcup.com", "localhost"]
     });
-
+    new Twitch.Embed("twitch-fernandongames", {
+        width: width,
+        height: height,
+        channel: "fernandongames",
+        // only needed if your site is also embedded on embed.example.com and othersite.example.com
+        parent: ["globalclashcup.com", "localhost"]
+    });
 </script>
 </body>
 </html>
