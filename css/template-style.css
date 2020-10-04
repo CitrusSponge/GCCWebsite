@@ -2138,7 +2138,15 @@ img.circle {
         border-radius: 60px;
 }
 
+.streams iframe {
+    display: block !important;
+    float: none;
+    margin: 0 auto;
+    display: block;
+}
+
 img.img-center {
     vertical-align: middle;
     display: inline-block;
+
 }
